@@ -56,7 +56,7 @@ else:
     st.write(df)
     
 # Reads in saved classification model
-load_clf = pickle.load(open('model_building\depressionrisk_clf.pkl', 'rb'))
+load_clf = pickle.load(open('depressionrisk_clf.pkl', 'rb'))
 
 # Apply model to make predictions
 prediction = load_clf.predict(df)
