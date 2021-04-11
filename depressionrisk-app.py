@@ -14,7 +14,7 @@ The NHANES survey design is a stratified, multistage probability sample of the c
 st.sidebar.header('Tell us about yourself')
 
 st.sidebar.markdown("""
-[Example CSV input file](https://github.com/jaindx)
+[Sample CSV input file](https://github.com/jaindx/UB-CSE587-Depression-Risk-Assessment/blob/master/Sample_Data.csv)
 """)
 
 # Collects user input features into dataframe
