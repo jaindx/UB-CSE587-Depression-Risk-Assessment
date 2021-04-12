@@ -38,8 +38,6 @@ else:
         return features
     input_df = user_input_features()
     
-# Combines user input features with entire penguins dataset
-# This will be useful for the encoding phase
 data_raw = pd.read_csv('Final_DF.csv')
 final_df = data_raw.drop(columns=['RISKY_GROUP'])
 df = pd.concat([input_df,final_df],axis=0)
