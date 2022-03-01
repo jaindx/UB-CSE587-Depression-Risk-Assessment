@@ -1,5 +1,11 @@
 # An Exploratory Analysis on the Correlation between Depression, Alcoholism and BMI
 
+Try out the Depression Risk Assessment web app by clicking on the button below:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://depression-risk.herokuapp.com/)
+
+https://depression-risk.herokuapp.com/
+
 ## ABSTRACT
 
 We performed an exploratory analysis on the correlation between the mental and physical health of people. Specifically, our efforts were to identify the existence of any pattern in our 
